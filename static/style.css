@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.start-screen {
+    background-color: #222;
+    color: #fff;
+}
+
+.home-screen {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.centered-text {
+    font-size: 1.5rem;
+    padding: 20px;
+}
