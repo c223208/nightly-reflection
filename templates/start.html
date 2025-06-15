@@ -35,6 +35,13 @@
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            const video = document.getElementById('start-video');
+            video.addEventListener('ended', () => {
+                // 最後のフレームで止める（ブラウザによっては自動的にそうなる）
+                video.pause();
+            });
+
+            // タップでホーム画面へ遷移
             document.body.addEventListener('click', () => {
                 window.location.href = "/home";
             });
@@ -42,7 +49,7 @@
     </script>
 </head>
 <body>
-    <video autoplay muted loop class="video-bg">
+    <video id="start-video" autoplay muted class="video-bg" playsinline>
         <source src="{{ url_for('static', filename='videos/start.mp4') }}" type="video/mp4">
         お使いのブラウザは動画に対応していません。
     </video>
