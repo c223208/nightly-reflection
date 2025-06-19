@@ -1,37 +1,25 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
-  font-family: sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
-.video-bg {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.centered-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 2rem;
-  text-shadow: 0 0 10px black;
-  text-align: center;
-  display: none;
-}
-
-.show {
-  display: block;
+.start-screen {
+    background-color: #222;
+    color: #fff;
 }
 
 .home-screen {
-  background-color: #f0f0f0;
-  color: #333;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.centered-text {
+    font-size: 1.5rem;
+    padding: 20px;
 }
