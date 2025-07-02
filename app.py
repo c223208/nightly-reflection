@@ -10,10 +10,6 @@ def start():
 def home():
     return render_template('home.html')
 
-@app.route('/manifest.json')
-def manifest():
-    return send_from_directory('static', 'manifest.json')
-
 import os
 
 if __name__ == '__main__':
