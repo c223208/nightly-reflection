@@ -32,3 +32,12 @@ body {
     text-align: center;
     color: #4e5a6b
 }
+
+.iframe-container {
+    position: absolute;
+    top: 75%;        /* y軸の下から1/2 = 上から50% */
+    left: 0;
+    width: 100%;     /* x軸全体に広げる */
+    transform: translateY(-50%); /* 中央基準で調整 */
+    height: calc(100vh * 4 / 9); /* 高さ = 画面の高さの4/9 */
+}
