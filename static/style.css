@@ -23,3 +23,12 @@ body {
     font-size: 1.5rem;
     padding: 20px;
 }
+
+#tap-message {
+    position: absolute;
+    top: 75%; /* y軸: 画面下から1/4（= 上から75%） */
+    left: 50%; /* x軸: 中心 */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #4e5a6b
+}
