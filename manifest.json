@@ -1,9 +1,11 @@
 {
-  "name": "PWAサンプル",
-  "short_name": "サンプル",
+  "name": "ふたり反省会",
+  "short_name": "🐏",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "background_color": "#2a344a",
+  "theme_color": "#eedcc2",
   "icons": [
     {
       "src": "/static/icons/icon_144x144.png",
