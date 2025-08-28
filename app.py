@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file
 
 app = Flask(__name__)
 
@@ -9,6 +9,10 @@ def start():
 @app.route('/home')
 def home():
     return render_template('home.html')
+
+@app.route('/manifest.json')
+def serve_manifest():
+    return send_file('manifest.json', mimetype='application/json')
 
 import os
 
