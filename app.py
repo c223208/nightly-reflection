@@ -14,6 +14,10 @@ def home():
 def serve_manifest():
     return send_file('manifest.json', mimetype='application/json')
 
+@app.route('/service-worker.js')
+def serve_service_worker():
+    return send_file('service-worker.js', mimetype='application/javascript')
+
 import os
 
 if __name__ == '__main__':
