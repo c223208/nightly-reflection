@@ -1,5 +1,5 @@
 # 『ふたり反省会』
-サイトへのリンク
+サイトへのリンク→
 https://hutarifan-sheng-hui.onrender.com/
 <p>就寝前の不毛な反省会にお供のひつじを
 <p>音声チャットwebアプリ
